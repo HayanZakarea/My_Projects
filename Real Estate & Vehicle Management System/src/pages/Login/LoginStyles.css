@@ -1,0 +1,112 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.login-page {
+  position: relative;
+  height: 100vh;
+  background-image: url('/public/background.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(20, 20, 20, 0.4);
+  z-index: 1;
+}
+
+.login-form {
+  position: relative;
+  z-index: 2;
+  width: 90%;
+  max-width: 320px;
+  padding: 30px;
+  background-color: transparent;
+  color: white;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-form h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 8px 15px;
+}
+
+.input-group i {
+  color: white;
+  margin-right: 10px;
+}
+
+.input-group input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 14px;
+}
+
+.input-group input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: white;
+}
+
+.forgot-password {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.login-button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-with {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.circle {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
